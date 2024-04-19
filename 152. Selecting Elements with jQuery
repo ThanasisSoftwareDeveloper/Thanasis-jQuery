@@ -1,1 +1,7 @@
+document.querySelector("h1");
+// replaced by
+$("h1");
 
+document.querySelectorAll("button");
+// replaced by
+$("button");
