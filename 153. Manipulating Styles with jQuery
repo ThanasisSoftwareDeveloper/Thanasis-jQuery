@@ -1,1 +1,23 @@
 
+$("h1").css("color", "green");// change to green
+
+console.log($("h1").css("color"));// rgb value of color property (it was (0, 0, 0))
+
+
+
+console.log($("h1").css("font-size"));// value of property
+
+console.log($("h1").css("font-size", "5rem"));// changing property
+
+
+
+$("h1").addClass("big-title");//adding class
+
+
+
+-------CSS------------------------
+.big-title{
+    font-size: 10rem;
+    color: yellow;
+    font-family: cursive;
+}
