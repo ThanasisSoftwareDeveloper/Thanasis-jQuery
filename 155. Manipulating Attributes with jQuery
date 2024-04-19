@@ -1,0 +1,6 @@
+Attributes
+
+console.log($("img").attr("src"));//get value of an attribute or
+$("h1").attr("class");//in console
+
+$("a").attr("href", "https://yahoo.com");//2 parts, set value of an attribute
