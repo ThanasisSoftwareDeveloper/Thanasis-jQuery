@@ -20,7 +20,7 @@ $("h1").addClass("big-title margin-50"); //adding multiple classes
 $("h1").hasClass("margin-50");//check
 
 
--------CSS------------------------
+-------CSS-------------------------
 .big-title{
     font-size: 10rem;
     color: yellow;
