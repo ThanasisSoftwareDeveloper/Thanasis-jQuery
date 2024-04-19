@@ -1,1 +1,9 @@
 
+
+$("h1").text("Goodmorning!"); //1st way to change text
+
+$("button").text("don't touch");//1st way to change text
+
+
+
+$("button").html("<em>Hey</em>");//2nd way to change text:
