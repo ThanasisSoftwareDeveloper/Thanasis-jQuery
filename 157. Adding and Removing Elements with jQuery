@@ -1,0 +1,15 @@
+//inside console, after:
+$("h1").before("<button>new</button>");
+
+//or after
+$("h1").after("<button>new</button>");
+
+//or  just before,  prepend
+$("h1").prepend("<button>new</button>");
+
+//or  right after append
+$("h1").append("<button>new</button>");
+
+//and remove them
+$("button").remove();
+
