@@ -1,1 +1,47 @@
+$("h1").click(function(){
+    $("h1").css("color", "purple");
+});
+
+
+//for more than one, for loop:
+for (var i=0; i<5; i++){
+    document.querySelectorAll("button")[i].addEventListener("click", function(){
+        document.querySelector("h1").style.color="purple";
+    })
+}
+
+//but using jQuery, just:
+
+    $("button").click(function(){
+        $("h1").css("color", "purple");
+    })
+
+//for input box:
+
+$("input").keypress(function(event){
+    console.log(event.key);
+})
+
+//or through all document:
+$(document).keypress(function(event){    //or click()
+    console.log(event.key);
+})
+
+
+//show it inside h1, instead of console.log
+$(document).keypress(function(event){    //or click()
+    $("h1").text(event.key);
+})
+
+
+//on(), instead of keypress() or click():
+$("h1").on("mouseover", function(){
+    $("h1").css("color", "blue");
+});
+
+
+
+$("h1").on("click", function(){
+    $("h1").css("color", "blue");
+});
 
