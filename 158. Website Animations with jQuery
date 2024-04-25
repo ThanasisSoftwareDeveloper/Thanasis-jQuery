@@ -1,0 +1,59 @@
+//animation with hide()
+
+$("h1").on("click", function(){
+    $("h1").hide();
+});
+
+//on console
+$("h1").show();
+
+//better toggle();
+$("button").on("click", function(){
+    $("h1").toggle();
+});
+
+//progressive
+$("button").on("click", function(){
+    $("h1").fadeOut();
+});
+
+//progressive toggle
+$("button").on("click", function(){
+    $("h1").fadeToggle();
+});
+
+//slideUp()
+$("button").on("click", function(){
+    $("h1").slideUp();
+});
+
+
+//console
+$("h1").slideDown();
+
+//or better for dropdown menu
+$("button").on("click", function(){
+    $("h1").slideToggle();
+});
+
+
+//opacity()
+$("button").on("click", function(){
+    $("h1").animate({opacity: 0.5}); //only numeric value
+});
+
+
+//margin
+$("button").on("click", function(){
+    $("h1").animate({margin: 0.5}); //only numeric value
+});
+
+$("button").on("click", function(){
+    $("h1").animate({margin: "10%"});
+});
+
+//more than one
+$("button").on("click", function(){
+    $("h1").slideUp().slideDown().animate({opacity: 0.5});
+});
+
